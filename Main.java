@@ -47,6 +47,7 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
         int limit = scanner.nextInt();
+        scanner.close();
 
         ArrayList<Integer> primeList = getPrimeNumbers(limit);
         System.out.println(primeList);
